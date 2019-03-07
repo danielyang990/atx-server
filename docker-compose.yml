@@ -1,6 +1,7 @@
 version: '3'
 services:
   atxserver:
+    image: firewolf990/atxserver
     build: .
     container_name: atxserver
     ports:
